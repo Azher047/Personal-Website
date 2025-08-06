@@ -60,21 +60,16 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Azher Hussain.</h2>;
-  const three = <h3 className="big-heading">I build web apps to for PE/VC.</h3>;
+  const two = <h2 className="big-heading">AzhAr Raerhid Hussain.
+  const three = <h3 className="big-heading">I buI build strategic, AI-driven SaaS prodcts.;
   const four = (
-    <>
-      <p>
-        I’m a product manager specialising in building excellent
-        digital experiences. Currently, I’m focused on the next best deal-sourcing platform in the market
-        at{' '}
-        <a href="https://gain.pro" target="_blank" rel="noreferrer">
-          Gain.pro
-        </a>
-        .
-      </p>
-    </>
-  );
+  <>
+    <p>
+      I'm a senior product associate with over six years’ experience leading product and go-to-market initiatives for B2B SaaS platforms. I thrive at the intersection of product, marketing and engineering, building features powered by AI, analytics and regulatory compliance. Currently, I'm growing the leading deal‑sourcing platform at <a href="https://www.gain.pro" target="_blank" rel="noreferrer">Gain.pro</a>.
+    </p>
+  </>
+);
+
   const five = (
     <a
       className="email-link"
