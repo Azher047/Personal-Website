@@ -74,10 +74,12 @@ const Footer = () => {
   });
 
   useEffect(() => {
+    // Only fetch GitHub stats in production to avoid hitting the API unnecessarily during development
     if (process.env.NODE_ENV !== 'production') {
       return;
     }
-    fetch('https://api.github.com/repos/bchiang7/v4')
+    // Fetch star and fork counts from this repository
+    fetch('https://api.github.com/repos/Azher047/Personal-Website')
       .then(response => response.json())
       .then(json => {
         const { stargazers_count, forks_count } = json;
@@ -104,9 +106,13 @@ const Footer = () => {
         </ul>
       </StyledSocialLinks>
 
-      <StyledCredit tabindex="-1">
-        <a href="https://github.com/bchiang7/v4">
-          <div>Designed &amp; Built by Brittany Chiang</div>
+      <StyledCredit tabIndex="-1">
+        {/*
+          Update the link and credit to point to your own GitHub repository and name.
+          This ensures the footer properly attributes the site to you instead of the original template author.
+        */}
+        <a href="https://github.com/Azher047/Personal-Website">
+          <div>Designed &amp; Built by Azher Rashid Hussain</div>
 
           {githubInfo.stars && githubInfo.forks && (
             <div className="github-stats">
