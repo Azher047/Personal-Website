@@ -60,7 +60,7 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        AI'm always up for a conversation about building AI-driven SaaS products, simplifying complex workflows, or anything else on your mind. Whether you're looking to collaborate, need advice on product strategy, or just want to chat, feel free to reach out — I'll do my best to get back to you!ion or just want to say hi, I’ll try my best to get back to you!
+        I'm always up for a conversation about building AI-driven SaaS products, simplifying complex workflows, or anything else on your mind. Whether you're looking to collaborate, need advice on product strategy, or just want to chat, feel free to reach out — I'll do my best to get back to you!ion or just want to say hi, I’ll try my best to get back to you!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
