@@ -60,8 +60,13 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">AzhAr Raerhid Hussain.
-  const three = <h3 className="big-heading">I buI build strategic, AI-driven SaaS prodcts.;
+// Replace the incorrect name and tagline with the correct information
+const two = <h2 className="big-heading">Azher Rashid Hussain.</h2>;
+const three = (
+  <h3 className="big-heading">
+    I build strategic, AI‑driven SaaS products.
+  </h3>
+);
   const four = (
   <>
     <p>
