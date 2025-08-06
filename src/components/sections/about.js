@@ -129,36 +129,38 @@ const About = () => {
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
-      <h2 className="numbered-heading">About Me</h2>
+      {/* Updated heading to include numerical prefix */}
+      <h2 className="numbered-heading">01. About Me</h2>
 
       <div className="inner">
         <StyledText>
           <div>
+            {/* Updated About Me paragraphs */}
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! I'm Azher, a product builder who thrives on turning abstract problems into
+              elegant, AI-first SaaS solutions. With 6+ years of experience spanning strategy,
+              GTM execution, compliance, and UX collaboration, I’ve launched features used by
+              large institutional funds and helped scale products from MVP to enterprise-grade.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              My journey into product began where many great things do: curiosity. From
+              researching companies to automating my first boring task and writing my first PRD,
+              I’ve found joy in simplifying complexity and making things work better, faster,
+              and smarter.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              Beyond product life, I’m an avid gamer, a bookworm with a soft spot for
+              philosophy, history, and business, and a firm believer that some of life’s best
+              insights come from getting lost in new cities or peaceful countryside roads.
+            </p>
+
+            <p>
+              Lately, I’ve been exploring LLM-based feature design, driving user engagement
+              through data, and learning how to blend product intuition with scalable systems.
+              Whether I’m aligning stakeholders, writing specs, or gaming my way through a
+              narrative-driven indie title, I’m all in.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
