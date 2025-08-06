@@ -2,12 +2,15 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Brittany Chiang',
+    // Basic site metadata. Update these values to reflect your own information.
+    title: 'Azher Rashid Hussain',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+      'Azher Rashid Hussain is a product builder who specializes in creating AI‑first SaaS solutions and leading go‑to‑market strategies.',
+    // URL of your deployed site (no trailing slash). Update to your own domain or GitHub Pages URL.
+    siteUrl: 'https://azherrashid.com',
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    // Twitter handle for social cards. Leave empty if you do not have one.
+    twitterUsername: '',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -20,8 +23,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Brittany Chiang',
-        short_name: 'Brittany Chiang',
+        // Name shown when the site is installed as a PWA
+        name: 'Azher Rashid Hussain',
+        // Short name used on homescreen icons
+        short_name: 'Azher',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
